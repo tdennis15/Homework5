@@ -26,5 +26,10 @@ namespace Homework5.Controllers
 
             return View();
         }
+
+        public ActionResult AddressForm()
+        {
+            return View();
+        }
     }
 }

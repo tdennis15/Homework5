@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = "AddressForm";
+}
+
+<div class="row" id="row1">
+    <div class="col-md-10">
+       <h1>
+       CHANGE OF ADDRESS NOTICE FOR DMV RECORDS
+       </h1>
+    </div>
+    <div class="col-md-2">
+       <font size="0"> Oregon Law requires you to notify DMV of any change of address within 30 days.</font>
+    </div>
+</div>
+
+<br />
+
+<div class="row" id="row2">
+    <div class="col-md-10">
+    <font size="+2"><b>NOTE:</b> ALL information is <em>REQUIRED</em> to change your address. </font>
+    </div>
+    <div class="col-md-2">
+    </div>
+</div>
+
+    <div class="row" id="row3">
+        <div class="col-md-5">
+          <span>Driver's License Number: <input type="text" name="ID" placeholder="A123456" required /></span> 
+        </div>
+
+        <div class="col-md-4">
+           <span> Date of Birth: <input type="date" name="DOB" placeholder="01/01/1975" required /></span>
+        </div>
+
+        <div class="col-md-3">
+            <font size="+1"> <b>INSTRUCTIONS:</b> </font>
+        </div>
+    </div>
+    
+    <div class="row" id="row4">
+        <div class="col-md-9" >
+            Full Legal Name: (Last, First, Middle) <input type="text" name="Name" placeholder="Doe, John, Klein" required />
+        </div>
+
+        <div class="col-md-3">
+            Fill out the form with all fields entered. Must include <b>ALL</b> information.
+        </div>
+
+    </div>
+
+<br />
+
+<div class="row" id="row5">
+    <div class="col-md-9">
+        <font size="+2"><b>NEW RESIDENCE ADDRESS:</b></font>(No Post Office Box Number or mail forwarding address)
+    </div>
+    <div class="col-md-3">
+        After all information has been entered, press "SUBMIT" in order to send the form.
+    </div>
+</div>
+
+<div class="row" id="row6">
+    <div class="col-md-9">
+       New Residence Address <input type="text" name="address" placeholder="123 North Main Street" required />
+    </div>
+
+    <div class="col-md-3">
+        Any false information entered is punishable by law and string beans.
+    </div>
+</div>
+
+<div class="row" id="row7">
+    <div class="col-md-2">
+        City: <input type="text" name="city" placeholder="Portland" required />
+    </div>
+
+    <div class="col-md-2">
+        State: <input type="text" name="state" placeholder="Oregon" required />
+    </div>
+
+    <div class="col-md-2">
+        Zip Code: <input type="number" name="zip" placeholder="97035" required />
+    </div>
+
+    <div class="col-md-2">
+        County: <input type="text" name="county" placeholder="Multinomah" required />
+    </div>  
+</div>
+
+<br />
+<br />
+<div class="row" id="row8">
+    <div class="col-md-2">
+       Date <input type="date" name="date" placeholder="01/01/2017" required />
+    </div>
+
+    <div class="col-md-6">
+        By pressing submit you are signing that the above information is accurate to the best of your knowledge.
+     <input type="submit" name="submit" value="SUBMIT" />
+    </div>
+</div>
